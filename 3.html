@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #grid {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+    </style>
 </head>
+
 <body>
-    <h1><a href="index.html">호돌HOME</a></h1>
-    <ol>
-        <li><a href="1.html">자기소개</a></li>
-        <li><a href="2.html">학교소개</a></li>
-        <li><a href="3.html">동아리소개</a></li>
-    </ol>
-    <h1>SW메이킹</h1>
-    <ul>
-        <li>python을 이용한 게임 제작</li>
-        <li>unity를 이용한 게임 제작</li>
-        <li>인생네컷 시스템 제작</li>
-        <li>자율학습 출석 확인 시스템</li>
-    </ul>
+    <h1 style="border-bottom:1px solid gray; padding:10px; margin:0px; padding:20px"><a href="index.html">호돌HOME</a>
+    </h1>
+    <div id="grid">
+        <ol style="border-right:1px solid gray; width:100px; margin:0px; padding:20px">
+            <li><a href="1.html">자기소개</a></li>
+            <li><a href="2.html">학교소개</a></li>
+            <li><a href="3.html">동아리소개</a></li>
+        </ol>
+        <div>
+            <h1>SW메이킹</h1>
+            <ul>
+                <li>python을 이용한 게임 제작</li>
+                <li>unity를 이용한 게임 제작</li>
+                <li>인생네컷 시스템 제작</li>
+                <li>자율학습 출석 확인 시스템</li>
+            </ul>
+        </div>
+    </div>
 </body>
+
 </html>
